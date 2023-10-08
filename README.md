@@ -1,11 +1,11 @@
-####Error Handling
-######*calculateSum can have 2 problems
+#### Error Handling
+###### *calculateSum can have 2 problems
 ```
 1- A user/programmer may enter a start index greater than the end index.
 2- A user/programmer may enter a start or end index out of range.
 3- Our sum variable may experience overflow due to limitations of the data type in memory.
 ```
-######*handled by throwing exceptions
+###### *handled by throwing exceptions
 <small>1- Invalid Argument Exception</small>
 ```cpp
    9  if (start > end) {
@@ -32,7 +32,7 @@
   29 }
 ```
 
-####Unit Testing
+#### Unit Testing
 
 ```cpp
 Test Cases:
@@ -47,7 +47,7 @@ Test Cases:
 
 
 ```
-####RUN
+#### RUN
 ```cpp
 //runt in terminal
 ./best_practice
