@@ -12,7 +12,7 @@
    10      throw std::invalid_argument("start cannot be greater than end");
    11  }
 ```
-<small>2- Out of Range Exception</small>
+<small> 2- Out of Range Exception</small>
 ```cpp
   14  if(start < 0 || start > num_arr_size){
   15      throw std::out_of_range("start_idx is out of range index");
