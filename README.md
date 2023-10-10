@@ -1,5 +1,5 @@
 #### Error Handling
-###### *calculateSum can have 2 problems
+###### *calculateSum can have 3 problems
 ```
 1- A user/programmer may enter a start index greater than the end index.
 2- A user/programmer may enter a start or end index out of range.
